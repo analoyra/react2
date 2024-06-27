@@ -1,0 +1,36 @@
+.historia{
+    font-size: 14px;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.persona h5, 
+.persona h6{
+    margin:0;
+    font-weight: normal;
+
+}
+
+.persona h5{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.persona h6{
+    font-size: 11px;
+    color: #666;
+}
